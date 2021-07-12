@@ -105,6 +105,7 @@ namespace Gerar_QRCode
             this.btnGerarQRCode.TabIndex = 7;
             this.btnGerarQRCode.Text = "Gerar QRCode";
             this.btnGerarQRCode.UseVisualStyleBackColor = true;
+            this.btnGerarQRCode.Click += new System.EventHandler(this.btnGerarQRCode_Click);
             // 
             // Form1
             // 
